@@ -1,0 +1,38 @@
+{
+  "name": "@mesibo/openclaw-channel",
+  "version": "1.0.12",
+  "description": "Mesibo real-time messaging channel plugin for OpenClaw",
+  "type": "module",
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ],
+    "setupEntry": "./setup-entry.ts",
+    "channel": {
+      "id": "mesibo",
+      "label": "Mesibo",
+      "blurb": "Connect OpenClaw to the Mesibo real-time messaging platform"
+    }
+  },
+  "files": [
+    "src/channel.ts",
+    "src/client.ts",
+    "index.ts",
+    "setup-entry.ts",
+    "openclaw.plugin.json"
+  ],
+  "bundledDependencies": [
+    "@mesibo/core"
+  ],
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@mesibo/core": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^2.0.0"
+  }
+}

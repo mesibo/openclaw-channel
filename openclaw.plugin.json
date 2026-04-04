@@ -1,0 +1,40 @@
+{
+  "id": "mesibo",
+  "channels": ["mesibo"],
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "accessToken": {
+        "type": "string",
+        "title": "Mesibo Access Token",
+        "description": "Your Mesibo user access token from the Mesibo console (console.mesibo.com).",
+        "secret": true
+      },
+      "appId": {
+        "type": "string",
+        "title": "Mesibo App ID",
+        "description": "Your Mesibo application ID (e.g. com.example.myapp).",
+        "default": "com.mesibo.firstapp"
+      },
+      "authorizedUsers": {
+        "type": "string",
+        "title": "Authorized Users",
+        "description": "Comma-separated list of Mesibo addresses allowed to send messages to this bot. Leave empty to allow all users."
+      },
+      "dmPolicy": {
+        "type": "string",
+        "title": "DM Security Policy",
+        "description": "Who can send OpenClaw messages via this channel.",
+        "enum": ["allowlist", "allow_all"],
+        "default": "allowlist"
+      },
+      "allowFrom": {
+        "type": "array",
+        "title": "Allowed Senders",
+        "description": "List of Mesibo addresses allowed to message OpenClaw (used when dmPolicy is 'allowlist').",
+        "items": { "type": "string" },
+        "default": []
+      }
+    }
+  }
+}
