@@ -5,7 +5,6 @@ Connects [OpenClaw](https://openclaw.ai) to the [Mesibo](https://mesibo.com) rea
 **Package:** `@mesibo/openclaw-channel`  
 **Channel ID:** `mesibo`
 
-Tutorial: [https://docs.mesibo.com/tutorials/openclaw-production-mobile-web-integration/](https://docs.mesibo.com/tutorials/openclaw-production-mobile-web-integration/)
 ---
 
 ## How it works
@@ -15,6 +14,8 @@ The plugin bridges Mesibo and OpenClaw:
 1. It authenticates to Mesibo using your User Access Token.
 2. Incoming messages from authorised Mesibo addresses are forwarded to your OpenClaw agent.
 3. The agent's reply is sent back to the original sender via Mesibo.
+
+Refer to the detailed blog: [https://docs.mesibo.com/tutorials/openclaw-production-mobile-web-integration/](https://docs.mesibo.com/tutorials/openclaw-production-mobile-web-integration/)
 
 ## Prerequisites
 
