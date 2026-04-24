@@ -1,6 +1,6 @@
 {
   "name": "@mesibo/openclaw-channel",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Mesibo real-time messaging channel plugin for OpenClaw",
   "type": "module",
   "openclaw": {
