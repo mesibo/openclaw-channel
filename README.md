@@ -5,7 +5,7 @@ Connects [OpenClaw](https://openclaw.ai) to the [Mesibo](https://mesibo.com) rea
 **Package:** `@mesibo/openclaw-channel`  
 **Channel ID:** `mesibo`
 
-Tutorial: [https://docs.mesibo.com/tutorials/openclaw-production-mobile-web-integration/])https://docs.mesibo.com/tutorials/openclaw-production-mobile-web-integration/)
+Tutorial: [https://docs.mesibo.com/tutorials/openclaw-production-mobile-web-integration/](https://docs.mesibo.com/tutorials/openclaw-production-mobile-web-integration/)
 ---
 
 ## How it works
